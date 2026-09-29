@@ -1,0 +1,19 @@
+{
+  "name": "backend-flores-stella",
+  "version": "1.0.0",
+  "description": "Backend API para Flores da Stella",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "pg": "^8.23.0"
+  }
+}
